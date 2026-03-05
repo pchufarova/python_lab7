@@ -1,7 +1,8 @@
 import requests
+import os
 
 
-API = '79a1889323cc89ceacbdb67f82c743fd'
+API = os.getenv("WEATHER_API")
 LAT = "55.71"
 LON = "60.55"
 LANG = "ru"
